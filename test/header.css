@@ -1,0 +1,46 @@
+.active {
+  border: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 400px;
+  height: 30px;
+  font-size: 20px;
+  border: solid 2px black;
+  cursor: text;
+}
+.login {
+  border: solid 2px black;
+  display: flex;
+  border-radius: 10px;
+  width: 97px;
+  height: 34px;
+  justify-content: center;
+  cursor: pointer;
+}
+.search {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  height: 45px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#container {
+  display: flex;
+}
+#play {
+  display: flex;
+}
+#right {
+  display: flex;
+}
